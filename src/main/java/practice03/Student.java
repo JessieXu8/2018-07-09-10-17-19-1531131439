@@ -15,7 +15,7 @@ public class Student extends Person {
         super(name, age);
         this.klass = klass;
     }
-    String introduce(){
+    public String introduce(){
         return "I am a Student. I am at Class "+this.klass+".";
     }
 }
